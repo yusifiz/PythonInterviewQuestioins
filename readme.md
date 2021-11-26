@@ -57,4 +57,15 @@ print(multi.multiplication(5))
 `list.pop(obj=list[-1])` − pop metodu siyahıdan sonuncu elementi silir.
 
 
+## 5.Write a sorting algorithm for a numerical dataset in Python.
+
+Nümunədəki kodu izləyərək, python'da list'i sıralaya bilərsiniz.
+
+```py
+list = [-1, 4, 0,34, 6, -8]
+list = [i for i in list]
+list.sort()
+print(list)
+```
+
 

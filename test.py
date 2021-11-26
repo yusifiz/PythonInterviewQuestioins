@@ -1,7 +1,4 @@
-class Math:
-    def multiplication(self, arg):
-        return arg*2
-    
-multi = Math()
-
-print(multi.multiplication(5))
+list = [-1, 4, 0,34, 6, -8]
+list = [i for i in list]
+list.sort()
+print(list)
