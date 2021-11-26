@@ -1,5 +1,7 @@
-import string
-
-for index in enumerate(string.ascii_letters):    
-    print(type(index))
+class Math:
+    def multiplication(self, arg):
+        return arg*2
     
+multi = Math()
+
+print(multi.multiplication(5))
