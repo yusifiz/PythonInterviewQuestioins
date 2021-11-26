@@ -87,3 +87,7 @@ print(squared_numbers)
 
 # Output: [4, 16, 36, 64, 100]
 ```
+
+## 7.What is TkInter?
+
+TkInter Python kitabxanasıdır. GUI (graphical user interface) üçün toolkit'dir (alət). Əsasən, masaüstü proqramları üçün istifadə olunur. Rənglər, şriftlər, ölçülər və kursorlar kimi atributları mövcuddur.
