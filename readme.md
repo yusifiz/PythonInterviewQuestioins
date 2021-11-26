@@ -68,4 +68,22 @@ list.sort()
 print(list)
 ```
 
+## 6.What is map function in Python?
 
+Map() funksiyası daxilində iterable obyekt və funksiya qəbul edir (Məs: map(func, iterable ...)).
+
+Nümunə: 
+
+```py
+numbers = [2, 4, 6, 8, 10]
+
+def square(number):
+  return number * number
+
+squared_numbers_iterator = map(square, numbers)
+
+squared_numbers = list(squared_numbers_iterator)
+print(squared_numbers)
+
+# Output: [4, 16, 36, 64, 100]
+```
