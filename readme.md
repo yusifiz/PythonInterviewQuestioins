@@ -47,4 +47,14 @@ multi = Math()
 print(multi.multiplication(5))
 ```
 
+## Answer
+
 * Metod adətən, "multi.multiplication(arg)" şəklində çağırdığımız multi obyektində funksiyadır. Ümumiyyətlə, metodlar class daxilindəki funksiyalara deyilir.
+
+
+## 4.How will you remove last object from a list?
+
+`list.pop(obj=list[-1])` − pop metodu siyahıdan sonuncu elementi silir.
+
+
+
