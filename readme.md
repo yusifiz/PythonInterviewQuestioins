@@ -91,3 +91,9 @@ print(squared_numbers)
 ## 7.What is TkInter?
 
 TkInter Python kitabxanasıdır. GUI (graphical user interface) üçün toolkit'dir (alət). Əsasən, masaüstü proqramları üçün istifadə olunur. Rənglər, şriftlər, ölçülər və kursorlar kimi atributları mövcuddur.
+
+
+## 8.Is Python object oriented? what is object oriented programming?
+
+Bəli, python obyekt yönümlü proqramlaşdırma dilidir. OOP class'lara və obyektlərə əsaslanan proqramlaşdırma paradiqmasıdır. OOP xüsusiyyətləri bunlardır: Encapsulation, Data Abstraction, Inheritance, Polymorphism.
+ 
