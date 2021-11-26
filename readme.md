@@ -116,3 +116,15 @@ print(palindrome('ana'))
 ```
 
 * Qeyd: Palindrom, tərsdən yazılışı da eyni cür olan sözlərə deyilir (Məs: ana, ata)
+
+## 10.Write a Python program to calculate the sum of a list of numbers.
+
+```py
+def list_sum(num_List):
+    if len(num_List) == 1:
+        return num_List[0]
+    else:
+        return num_List[0] + list_sum(num_List[1:])
+print(list_sum([1, 2, 3, 4, 5]))
+```
+Output: 15
