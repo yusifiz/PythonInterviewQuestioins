@@ -54,12 +54,12 @@ print(multi.multiplication(5))
 
 ## 4.How will you remove last object from a list?
 
-`list.pop(obj=list[-1])` − pop metodu siyahıdan sonuncu elementi silir.
+* `list.pop(obj=list[-1])` − pop metodu siyahıdan sonuncu elementi silir.
 
 
 ## 5.Write a sorting algorithm for a numerical dataset in Python.
 
-Nümunədəki kodu izləyərək, python'da list'i sıralaya bilərsiniz.
+* Nümunədəki kodu izləyərək, python'da list'i sıralaya bilərsiniz.
 
 ```py
 list = [-1, 4, 0,34, 6, -8]
@@ -70,7 +70,7 @@ print(list)
 
 ## 6.What is map function in Python?
 
-Map() funksiyası daxilində iterable obyekt və funksiya qəbul edir (Məs: map(func, iterable ...)).
+* Map() funksiyası daxilində iterable obyekt və funksiya qəbul edir (Məs: map(func, iterable ...)).
 
 Nümunə: 
 
@@ -90,10 +90,29 @@ print(squared_numbers)
 
 ## 7.What is TkInter?
 
-TkInter Python kitabxanasıdır. GUI (graphical user interface) üçün toolkit'dir (alət). Əsasən, masaüstü proqramları üçün istifadə olunur. Rənglər, şriftlər, ölçülər və kursorlar kimi atributları mövcuddur.
+* TkInter Python kitabxanasıdır. GUI (graphical user interface) üçün toolkit'dir (alət). Əsasən, masaüstü proqramları üçün istifadə olunur. Rənglər, şriftlər, ölçülər və kursorlar kimi atributları mövcuddur.
 
 
 ## 8.Is Python object oriented? what is object oriented programming?
 
-Bəli, python obyekt yönümlü proqramlaşdırma dilidir. OOP class'lara və obyektlərə əsaslanan proqramlaşdırma paradiqmasıdır. OOP xüsusiyyətləri bunlardır: Encapsulation, Data Abstraction, Inheritance, Polymorphism.
+* Bəli, python obyekt yönümlü proqramlaşdırma dilidir. OOP class'lara və obyektlərə əsaslanan proqramlaşdırma paradiqmasıdır. OOP xüsusiyyətləri bunlardır: Encapsulation, Data Abstraction, Inheritance, Polymorphism.
  
+
+## 9.Write a Python function that checks whether a passed string is palindrome Or not?
+
+```py
+def palindrome(string):
+    left_pos = 0
+    right_pos = len(string) – 1
+
+    while right_pos >= left_pos:
+        if not string[left_pos] == string[right_pos]:
+            return False
+
+    left_pos += 1
+    right_pos -= 1
+    return True
+print(palindrome('ana'))
+```
+
+* Qeyd: Palindrom, tərsdən yazılışı da eyni cür olan sözlərə deyilir (Məs: ana, ata)
