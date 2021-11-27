@@ -244,3 +244,19 @@ def func(*args):
 def func(*args):
     ... 
 ```
+
+
+## 17.How can you declare multiple assignments in one statement?
+
+
+# Answer
+
+Bunu etməyin iki yolu var:
+
+```py
+a,b,c=3,4,5     # Bu a=3, b=4, c=5 deməkdir.
+a = b = c =3         # Bu isə göründüyü kimi hər 3 dəyişəni 3-ə bərabər edir.
+```
+
+    
+
