@@ -128,3 +128,15 @@ def list_sum(num_List):
 print(list_sum([1, 2, 3, 4, 5]))
 ```
 Output: 15
+
+## 11.What is the output of the following?
+
+```py(
+x = ['ab', 'cd']
+print(len(map(list, x)))
+```
+
+# Answer
+
+* TypeError error'u verəcək çünki, map()'in len() funksiyası yoxdur. Yəni uzunluq anlayışı yoxdur.
+
