@@ -187,7 +187,7 @@ dict={'Employee1':'1000','Employee2':'1500','Employee3':'2000'}
 
 print(dict)
 ```
-* Output - <class 'dict;>
+Output - <class 'dict;>
 
 * Bu nümunədə key - employee, value - salary'dir.
 
@@ -205,7 +205,7 @@ mydict.keys()
 print(dict_keys)
 ```
 
-* Output - (['a', 'b', 'c', 'e'])
+Output - (['a', 'b', 'c', 'e'])
 
 
 ## 15.Explain join() and split() in Python.
@@ -225,3 +225,22 @@ Output - '1,2,3,4,5' (string return edir.)
 
 Output - ['example', 'gmail.com'] (list içərisində simvola görə ayrılmış string'ləri return edir.)
 
+
+## 16.What is the pass statement in Python?
+
+
+# Answer
+
+* Kodumuza hələ nə edəcəyimizə qərar vermədiyimiz vaxtlar ola bilər. Bu zaman kodun düzgün sintaksı olması üçün (error verməməsi üçün), 'pass' ifadəsindən istifadə edə bilərik.
+
+```py
+def func(*args):
+    pass 
+```
+
+* Eyni ifadəyə "..." şəklində rast gələ bilərsiniz.
+
+```py
+def func(*args):
+    ... 
+```
