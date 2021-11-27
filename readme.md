@@ -663,7 +663,7 @@ print(my_list)
 ```
 
 
-## 8. Explain the //, %, and ** operators in Python.
+## 32. Explain the //, %, and ** operators in Python.
 
 
 ### Answer
@@ -695,4 +695,32 @@ Normal bölünmə zamanı cavab 3.5 olmalı idi.
 13 % 7 
 
 6
+```
+
+
+## 33. What is a docstring?
+
+
+### Answer
+
+* Docstring hər hansı bit funsiyanın və ya metodun daxilində yazılır. Və həmin funksiya/metodun nə etdiyini açıqlayır. Docstringlər 3 ədəd tək/cüt dırnaq arasında yazılır.
+
+```py
+
+def salam():
+    """
+    Bu funskiya ekrana salam yazısını çıxarır
+    """
+    print("salam")
+
+salam()
+
+```
+
+Funksiyanın docstringini görmək üçün __doc__ atributu istifadə edilir.
+
+```py
+
+print (salam.__doc__)
+
 ```
