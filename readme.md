@@ -807,3 +807,25 @@ Belə olan halda a is not defined erroru ilə qarşılaşacağıq. Erroru həll 
     a+=1
     print(a)
 ```
+
+
+## 37. What functions or methods will you use to delete a file in Python?
+
+
+### Answer
+
+* remove() və unlink() metodlarından istifadə edə bilərik.
+
+```py
+
+import os
+os.remove('app.py')
+```
+
+Unlinkin istifadəsi isə aşağıdakı kimidir.
+
+```py 
+
+import os 
+os.unlink("app.py")
+```
