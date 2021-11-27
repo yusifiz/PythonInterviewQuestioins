@@ -391,6 +391,7 @@ print(type(converted_num))
 
 ## 4. What is Garbage Collection?
 
+
 ## Answer
 
 * Pythonda Garbage Collection istifadə olunmayan obyektlərin depolanması üçün bir yerdir. Bu funksiya uzun müddət istifadə olunmayan obyektləri siradan çıxarır və yaddaşda yeni obyektlər üçün yer açır. Bunu komputerdə  recycling system(yenidən emal) prosesi kimi təsəvvür edə bilərsiniz. 
@@ -398,8 +399,38 @@ print(type(converted_num))
 
 ## 5. How do you create your own package in Python?
 
+
 ## Answer
 
 1. Əvvəlcə directory yaradırıq və ona package name veririk
 2. Sonra ora lazım olan funksiyaları və classları yerləşdiririk.
 3. Sonunda isə directory`nin içində init.py faylı yaradırıq ki, Python bu directory-nin  package olduğunu anlasın.
+
+
+## 6. Explain the use "with" statement in python?
+
+
+## Answer
+
+"With" statement kodların daha oxunaqlı və təmiz olmasında önəmli rol oynayır. Bunun yanı sıra, faylların idarə olunmasına da köməklik edir. Aşağıdakı kod parçasında bunun nümunısini görə bilərik.
+
+```py 
+
+# 1) with statementdən istifadə edilmədikdə
+file = open('file_path', 'w')
+file.write('hello world !')
+file.close()
+  
+# 2) with statementdən istifadə edilmədikdə
+file = open('file_path', 'w')
+try:
+    file.write('hello world')
+finally:
+    file.close()
+
+  
+# with statementdən istifadə edildikdə
+with open('file_path', 'w') as file:
+    file.write('hello world !')
+
+```
