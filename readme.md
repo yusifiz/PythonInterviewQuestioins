@@ -171,3 +171,19 @@ print(dict)
 * Bu nümunədə key - employee, value - salary'dir.
 
 
+## 14.How do you get a list of all the keys in a dictionary?
+
+
+# Answer
+
+* Bunun üçün key() metodundan istifadə edəcəyik.
+
+```py
+mydict={'a':1,'b':2,'c':3,'e':5}
+mydict.keys()
+print(dict_keys)
+```
+
+* Output - (['a', 'b', 'c', 'e'])
+
+
