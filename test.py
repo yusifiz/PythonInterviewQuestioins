@@ -1,2 +1,1 @@
-x = ['ab', 'cd']
-print(len(list(map(list, x))))
+print("example@gmail.com".split("@"))
