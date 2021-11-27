@@ -258,5 +258,28 @@ a,b,c=3,4,5     # Bu a=3, b=4, c=5 deməkdir.
 a = b = c =3         # Bu isə göründüyü kimi hər 3 dəyişəni 3-ə bərabər edir.
 ```
 
+
+## 18.What is tuple unpacking?
+
+
+# Answer
+
+* Tuple bir sıra dəyərləri (values) bir siyayıda toplamaq üçün istifadə olunur. List'dən fərqi içindəki elementləri kənardan dəyişmək olmur, sabit siyahı formasıdır. 
+
+```py
+mytuple=3,4,5
+print(mytuple)
+```
+
+Bu nümunədə 3,4,5 ədədlərini tuple'a əlavə edirik.
+
+```py
+x,y,z=mytuple
+print(x+y+z)
+```
+
+Burada isə tuple'a atdığımız integer dəyərləri x,y,z dəyişənlərinə mənimsədirik.
+
+
     
 
