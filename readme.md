@@ -642,3 +642,22 @@ print(a[-1])
 25
 
 ```
+
+
+## 31. How would you randomize the contents of a list in-place?
+
+
+### Answer
+
+* Bunun üçün shuffle() funksiyasından istiffadə edilir. Öncəliklə bu funksiyanı import etmək lazımdır. İstifadəsi aşağıdakı kimidir.
+
+```py
+
+from random import shuffle
+
+my_list = [1,2,3,5,6,88,54]
+
+shuffle(my_list)
+
+print(my_list)
+```
