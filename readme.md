@@ -11,7 +11,7 @@ for letter in string.letters:
     i = i + 1
 ```
 
-### Answer
+## Answer
 
 ```py
 
@@ -31,7 +31,7 @@ List = ['a', 'b', 'c', 'd', 'e']
 print(List[10:])
 ```
 
-### Answer
+## Answer
 
 * Bu metodla listin 10-cu indeksdən sonrakı elementlərini çap etmək istədiyimizi bildiririk. Lakin, listdə 5 element olduğu üçün 4-cü indeksdən sonra boş list qaytarır. Bu səbəbdən, 10-cu indeksdən sonrakı elementləri istədikdə bizə boş list ("[]") qaytarır.
 
@@ -47,7 +47,7 @@ multi = Math()
 print(multi.multiplication(5))
 ```
 
-### Answer
+## Answer
 
 * Metod adətən, "multi.multiplication(arg)" şəklində çağırdığımız multi obyektində funksiyadır. Ümumiyyətlə, metodlar class daxilindəki funksiyalara deyilir.
 
@@ -55,7 +55,7 @@ print(multi.multiplication(5))
 ## 4.How will you remove last object from a list?
 
 
-### Answer
+## Answer
 
 * `list.pop(obj=list[-1])` − pop metodu siyahıdan sonuncu elementi silir.
 
@@ -63,7 +63,7 @@ print(multi.multiplication(5))
 ## 5.Write a sorting algorithm for a numerical dataset in Python.
 
 
-### Answer
+## Answer
 
 * Nümunədəki kodu izləyərək, python'da list'i sıralaya bilərsiniz.
 
@@ -77,7 +77,7 @@ print(list)
 ## 6.What is map function in Python?
 
 
-### Answer
+## Answer
 
 * Map() funksiyası daxilində iterable obyekt və funksiya qəbul edir (Məs: map(func, iterable ...)).
 
@@ -100,7 +100,7 @@ print(squared_numbers)
 ## 7.What is TkInter?
 
 
-### Answer
+## Answer
 
 * TkInter Python kitabxanasıdır. GUI (graphical user interface) üçün toolkit'dir (alət). Əsasən, masaüstü proqramları üçün istifadə olunur. Rənglər, şriftlər, ölçülər və kursorlar kimi atributları mövcuddur.
 
@@ -108,7 +108,7 @@ print(squared_numbers)
 ## 8.Is Python object oriented? what is object oriented programming?
 
 
-### Answer
+## Answer
 
 * Bəli, python obyekt yönümlü proqramlaşdırma dilidir. OOP class'lara və obyektlərə əsaslanan proqramlaşdırma paradiqmasıdır. OOP xüsusiyyətləri bunlardır: Encapsulation, Data Abstraction, Inheritance, Polymorphism.
  
@@ -116,7 +116,7 @@ print(squared_numbers)
 ## 9.Write a Python function that checks whether a passed string is palindrome Or not?
 
 
-### Answer
+## Answer
 
 ```py
 def palindrome(string):
@@ -139,7 +139,7 @@ print(palindrome('ana'))
 ## 10.Write a Python program to calculate the sum of a list of numbers.
 
 
-### Answer
+## Answer
 
 ```py
 def list_sum(num_List):
@@ -159,7 +159,7 @@ x = ['ab', 'cd']
 print(len(map(list, x)))
 ```
 
-### Answer
+## Answer
 
 * TypeError error'u verəcək çünki, map()'in len() funksiyası yoxdur. Yəni uzunluq anlayışı yoxdur.
 
@@ -171,7 +171,7 @@ x = ['ab', 'cd']
 print(len(list(map(list, x))))
 ```
 
-### Answer
+## Answer
 
 * List'də 2 element olduğu üçün len() metodunun köməyi ilə, list'in uzunluğunu 2 alacayıq.
 
@@ -179,7 +179,7 @@ print(len(list(map(list, x))))
 ## 13.What is a dictionary in Python?
 
 
-### Answer
+## Answer
 
 * Dictionary (lüğət) python data tiplərindən biridir. Key - value (açar - dəyər) şəklində təyin edilir. Məsələn, işçi və onun maaşını nümunə göstərmək olar. 
 ``` 
@@ -195,7 +195,7 @@ Output - <class 'dict;>
 ## 14.How do you get a list of all the keys in a dictionary?
 
 
-### Answer
+## Answer
 
 * Bunun üçün key() metodundan istifadə edəcəyik.
 
@@ -211,7 +211,7 @@ Output - (['a', 'b', 'c', 'e'])
 ## 15.Explain join() and split() in Python.
 
 
-### Answer
+## Answer
 
 * .join() metodu istənilən iterativ (sadalanan, list şəklində olan) elementi qəbul edir və onları müəyyən edilmiş simvolla ayırmağa kömək edir.
 
@@ -229,7 +229,7 @@ Output - ['example', 'gmail.com'] (list içərisində simvola görə ayrılmış
 ## 16.What is the pass statement in Python?
 
 
-### Answer
+## Answer
 
 * Kodumuza hələ nə edəcəyimizə qərar vermədiyimiz vaxtlar ola bilər. Bu zaman kodun düzgün sintaksı olması üçün (error verməməsi üçün), 'pass' ifadəsindən istifadə edə bilərik.
 
@@ -249,7 +249,7 @@ def func(*args):
 ## 17.How can you declare multiple assignments in one statement?
 
 
-### Answer
+## Answer
 
 Bunu etməyin iki yolu var:
 
@@ -262,7 +262,7 @@ a = b = c =3         # Bu isə göründüyü kimi hər 3 dəyişəni 3-ə bərab
 ## 18.What is tuple unpacking?
 
 
-### Answer
+## Answer
 
 * Tuple bir sıra dəyərləri (values) bir siyayıda toplamaq üçün istifadə olunur. List'dən fərqi içindəki elementləri kənardan dəyişmək olmur, sabit siyahı formasıdır. 
 
@@ -284,7 +284,7 @@ Burada isə tuple'a atdığımız integer dəyərləri x,y,z dəyişənlərinə 
 ## 19.What data types does Python support?
 
 
-### Answer
+## Answer
 
 * Python bizə 5 növ data tipi təqdim edir.
 
@@ -312,7 +312,7 @@ Burada isə tuple'a atdığımız integer dəyərləri x,y,z dəyişənlərinə 
 
 ## 20.What is slicing?
 
-### Answer
+## Answer
 
 Slice() metodu bizə stringi və ya list elementlərini hissələrə ayırmaq üçün istifadə olunur.
 
@@ -329,7 +329,7 @@ Slice() metodu bizə stringi və ya list elementlərini hissələrə ayırmaq ü
 ## 21. How do I convert a number to a string?
 
 
-### Answer 
+## Answer 
 
 Pythonda number data tipini string data tipinə dəyişməyin bir neçə yolu var.
 str(), "%s" , "f-string" , format()  kimi methodlardan istifadə oluna bilər
@@ -495,7 +495,7 @@ print(word.split('t'))
 ## 27. Explain logical operators in Python.
 
 
-### Answer
+## Answer
 
 
 Bir çox programlaşdırma dilində olduğu kimi Pythonda da 3 dənə logical operator var. And , Or, Not.
@@ -583,7 +583,7 @@ else:
 ## 28. Mention five benefits of using Python?
 
 
-### Answer
+## Answer
 
 1. Yeni başlayanlar üçün öyrənilməsi asan olan bir dildir.
 2. Multi-purpose bir dildir. Yəni bir çox platforma üçün layihə hazırlamaq olur. Web app, desktop app, oyun, Aİ(suni intellekt) kimi bir fərqli sahələrdə istifadə oluna bilir.
@@ -595,7 +595,7 @@ else:
 ## 29. Mention what are the rules for local and global variables in Python?
 
 
-### Answer
+## Answer
 
 * Funksiyaların içində yaranan hər bir variable (məs: x=3) local variable sayılır. Onun istifadəsi və icazəsi yalnız həmin funksiya üçün olur. 
 
@@ -647,7 +647,7 @@ x outside: global
 ## 30. Suppose list1 is [2, 33, 222, 14, 25], What is list1[-1] ?
 
 
-### Answer
+## Answer
 
 * index olaraq -1 istifadə etdiyimiz zaman, listin ən sonuncu obyektini alırıq.
 
@@ -663,7 +663,7 @@ print(a[-1])
 ## 31. How would you randomize the contents of a list in-place?
 
 
-### Answer
+## Answer
 
 * Bunun üçün shuffle() funksiyasından istiffadə edilir. Öncəliklə bu funksiyanı import etmək lazımdır. İstifadəsi aşağıdakı kimidir.
 
@@ -682,7 +682,7 @@ print(my_list)
 ## 32. Explain the //, %, and ** operators in Python.
 
 
-### Answer
+## Answer
 
 // Bölünmə zamanı nəticənin integer hissəsini göstərir.
 
@@ -717,7 +717,7 @@ Normal bölünmə zamanı cavab 3.5 olmalı idi.
 ## 33. What is a docstring?
 
 
-### Answer
+## Answer
 
 * Docstring hər hansı bit funsiyanın və ya metodun daxilində yazılır. Və həmin funksiya/metodun nə etdiyini açıqlayır. Docstringlər 3 ədəd tək/cüt dırnaq arasında yazılır.
 
@@ -745,7 +745,7 @@ print (salam.__doc__)
 ## 34. With Python, how do you find out which directory you are currently in?
 
 
-### Answer
+## Answer
 
 * Bunu tapmaq üçün getcwd() metodundan istifadə edilir. Öncəliklə os modulunu imoprt etməliyik.
 
@@ -773,7 +773,7 @@ os.getcwd()
 ## 35. How many arguments can the range() function take?
 
 
-### Answer
+## Answer
 
 * range() funksiyası 3 ədəd arqument götürür. Bunlar start, stop və step arqumentləridir. Start hansı ədəddən başlayacağını, stop hansı ədədə qədər davam edəcəyini, step isə artım ədədini bildirir. Step 2 olsa ədədlər iki - iki artacaqdır.
 
@@ -797,7 +797,7 @@ range(0,20,2)
 ## 36. What is the global keyword?
 
 
-### Answer
+## Answer
 
 * Global keywordü hansısa dəyişəni kodun istənilən yerində əlçatan etmək üçün istifadə edilir.
 
@@ -828,7 +828,7 @@ Belə olan halda a is not defined erroru ilə qarşılaşacağıq. Erroru həll 
 ## 37. What functions or methods will you use to delete a file in Python?
 
 
-### Answer
+## Answer
 
 * remove() və unlink() metodlarından istifadə edə bilərik.
 
