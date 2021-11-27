@@ -326,7 +326,7 @@ Slice() metodu bizə stringi və ya list elementlərini hissələrə ayırmaq ü
 ```
 
 
-## 3. How do I convert a number to a string?
+## 21. How do I convert a number to a string?
 
 
 ### Answer 
@@ -389,7 +389,7 @@ print(type(converted_num))
 ```
 
 
-## 4. What is Garbage Collection?
+## 22. What is Garbage Collection?
 
 
 ## Answer
@@ -397,7 +397,7 @@ print(type(converted_num))
 * Pythonda Garbage Collection istifadə olunmayan obyektlərin depolanması üçün bir yerdir. Bu funksiya uzun müddət istifadə olunmayan obyektləri siradan çıxarır və yaddaşda yeni obyektlər üçün yer açır. Bunu komputerdə  recycling system(yenidən emal) prosesi kimi təsəvvür edə bilərsiniz. 
 
 
-## 5. How do you create your own package in Python?
+## 23. How do you create your own package in Python?
 
 
 ## Answer
@@ -407,7 +407,7 @@ print(type(converted_num))
 3. Sonunda isə directory`nin içində init.py faylı yaradırıq ki, Python bu directory-nin  package olduğunu anlasın.
 
 
-## 6. Explain the use "with" statement in python?
+## 24. Explain the use "with" statement in python?
 
 
 ## Answer
@@ -436,7 +436,7 @@ with open('file_path', 'w') as file:
 ```
 
 
-## 7. Mention the use of the split function in Python?
+## 25. Mention the use of the split function in Python?
 
 
 ## Answer
@@ -468,7 +468,7 @@ print(word.split('t'))
 ```
 
 
-## 8. How do you take input in Python?
+## 26. How do you take input in Python?
 
 
 ## Answer
@@ -476,7 +476,7 @@ print(word.split('t'))
 * Pythonda input üçün input() funksiyasından istifadə olunur. Userdən hər hansısa bir datanı götürmək üçün istifadə olunur. Məsələn age = input("Yaşınızı qeyd edin: ")  formasında yazsaq userdən gələn datanı bir dəyərə bərabər edə bilirik. Bir nüansı qeyd etmək lazımdır ki, input() methodu string qaytarır, əgər int qaytarmasını istəyirsinizsə age = int(input("Yaşınızı qeyd edin: ")) kimi yaza bilərsiniz.
 
 
-## 9. Explain logical operators in Python.
+## 27. Explain logical operators in Python.
 
 
 ### Answer
@@ -564,7 +564,7 @@ else:
 ```
 
 
-## 10. Mention five benefits of using Python?
+## 28. Mention five benefits of using Python?
 
 
 ### Answer
@@ -574,3 +574,56 @@ else:
 3. Pythonun fərqli və geniş kitabxanasının olması developerlərə də rahatlıq təmin edir. Beləliklə developerlərin daha productive olmasına kömək edir.
 4. Python developers community digər dillərə baxanda daha geniş yayıldığına görə bir məsələnin həllini tapmaq daha az vaxt alır.
 5. OOPni dəstəklədiyinə görə hard codingdən bizi qoruyur. OOPnin bütün üstünlüklərini istifadə edə bilirik.
+
+
+## 29. Mention what are the rules for local and global variables in Python?
+
+
+### Answer
+
+* Funksiyaların içində yaranan hər bir variable (məs: x=3) local variable sayılır. Onun istifadəsi və icazəsi yalnız həmin funksiya üçün olur. 
+
+```py 
+def foo():
+    y = "local"
+    print(y)
+
+foo()
+
+```
+
+* Nəticə 
+  
+```
+local
+```
+
+* Məsələn yuxarıdakı kod parçasına baxdıqda y dəyəri funksiyanın içində yaranıb və içində də istifadə olunur. Əgər print funksiyası funsiyanın çölündə icra olunsaydı kod error verecekdi.
+
+## Global Value
+
+* Bu o variabledir ki funksiyanın çölündə də yaransa da onu bütün funksiyalarda istifadəsi mümkündür.
+
+```py 
+
+x = "global"
+
+def foo():
+    print("x inside:", x)
+
+
+foo()
+print("x outside:", x)
+
+
+```
+* Nəticə 
+
+```
+x inside: global
+x outside: global
+
+```
+
+* Bu misalda isə x global variable olduğu üçün həm funksiyanın içində həm də çölündə istifadəsi mümkündür.ad
+
