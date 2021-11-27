@@ -776,3 +776,34 @@ range(0,20,2)
 Üç arqument verdikdə isə birinci rəqəm start arqumenti, ikinci rəqəm isə stop arqumenti, üçüncü rəqəm isə step arqumenti olur.
 
 ```
+
+
+## 36. What is the global keyword?
+
+
+### Answer
+
+* Global keywordü hansısa dəyişəni kodun istənilən yerində əlçatan etmək üçün istifadə edilir.
+
+Misal üçün :
+
+```py
+
+ a=7
+ def func():
+    print(a)
+    a+=1
+    print(a)
+```
+
+Belə olan halda a is not defined erroru ilə qarşılaşacağıq. Erroru həll etmək üçün kodu aşağıdakı kimi dəyişməliyik :
+
+```py
+
+ a=7
+ def func():
+    global a
+    print(a)
+    a+=1
+    print(a)
+```
