@@ -54,10 +54,16 @@ print(multi.multiplication(5))
 
 ## 4.How will you remove last object from a list?
 
+
+# Answer
+
 * `list.pop(obj=list[-1])` − pop metodu siyahıdan sonuncu elementi silir.
 
 
 ## 5.Write a sorting algorithm for a numerical dataset in Python.
+
+
+# Answer
 
 * Nümunədəki kodu izləyərək, python'da list'i sıralaya bilərsiniz.
 
@@ -69,6 +75,9 @@ print(list)
 ```
 
 ## 6.What is map function in Python?
+
+
+# Answer
 
 * Map() funksiyası daxilində iterable obyekt və funksiya qəbul edir (Məs: map(func, iterable ...)).
 
@@ -90,15 +99,24 @@ print(squared_numbers)
 
 ## 7.What is TkInter?
 
+
+# Answer
+
 * TkInter Python kitabxanasıdır. GUI (graphical user interface) üçün toolkit'dir (alət). Əsasən, masaüstü proqramları üçün istifadə olunur. Rənglər, şriftlər, ölçülər və kursorlar kimi atributları mövcuddur.
 
 
 ## 8.Is Python object oriented? what is object oriented programming?
 
+
+# Answer
+
 * Bəli, python obyekt yönümlü proqramlaşdırma dilidir. OOP class'lara və obyektlərə əsaslanan proqramlaşdırma paradiqmasıdır. OOP xüsusiyyətləri bunlardır: Encapsulation, Data Abstraction, Inheritance, Polymorphism.
  
 
 ## 9.Write a Python function that checks whether a passed string is palindrome Or not?
+
+
+# Answer
 
 ```py
 def palindrome(string):
@@ -119,6 +137,9 @@ print(palindrome('ana'))
 
 
 ## 10.Write a Python program to calculate the sum of a list of numbers.
+
+
+# Answer
 
 ```py
 def list_sum(num_List):
