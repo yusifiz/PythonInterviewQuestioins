@@ -117,6 +117,7 @@ print(palindrome('ana'))
 
 * Qeyd: Palindrom, tərsdən yazılışı da eyni cür olan sözlərə deyilir (Məs: ana, ata)
 
+
 ## 10.Write a Python program to calculate the sum of a list of numbers.
 
 ```py
@@ -129,6 +130,7 @@ print(list_sum([1, 2, 3, 4, 5]))
 ```
 Output: 15
 
+
 ## 11.What is the output of the following?
 
 ```py(
@@ -140,3 +142,14 @@ print(len(map(list, x)))
 
 * TypeError error'u verəcək çünki, map()'in len() funksiyası yoxdur. Yəni uzunluq anlayışı yoxdur.
 
+
+## 12.What is the output of the following?
+
+```py
+x = ['ab', 'cd']
+print(len(list(map(list, x))))
+```
+
+# Answer
+
+* List'də 2 element olduğu üçün len() metodunun köməyi ilə, list'in uzunluğunu 2 alacayıq.
