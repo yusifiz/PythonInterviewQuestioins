@@ -153,3 +153,21 @@ print(len(list(map(list, x))))
 # Answer
 
 * List'də 2 element olduğu üçün len() metodunun köməyi ilə, list'in uzunluğunu 2 alacayıq.
+
+
+## 13.What is a dictionary in Python?
+
+
+# Answer
+
+* Dictionary (lüğət) python data tiplərindən biridir. Key - value (açar - dəyər) şəklində təyin edilir. Məsələn, işçi və onun maaşını nümunə göstərmək olar. 
+``` 
+dict={'Employee1':'1000','Employee2':'1500','Employee3':'2000'}
+
+print(dict)
+```
+* Output - <class 'dict;>
+
+* Bu nümunədə key - employee, value - salary'dir.
+
+
