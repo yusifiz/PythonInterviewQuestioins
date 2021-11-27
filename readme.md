@@ -627,3 +627,18 @@ x outside: global
 
 * Bu misalda isə x global variable olduğu üçün həm funksiyanın içində həm də çölündə istifadəsi mümkündür.ad
 
+
+## 30. Suppose list1 is [2, 33, 222, 14, 25], What is list1[-1] ?
+
+
+### Answer
+
+* index olaraq -1 istifadə etdiyimiz zaman, listin ən sonuncu obyektini alırıq.
+
+```py 
+a = [2, 33, 222, 14, 25]
+print(a[-1])
+
+25
+
+```
