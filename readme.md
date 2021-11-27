@@ -474,3 +474,91 @@ print(word.split('t'))
 ## Answer
 
 * Pythonda input üçün input() funksiyasından istifadə olunur. Userdən hər hansısa bir datanı götürmək üçün istifadə olunur. Məsələn age = input("Yaşınızı qeyd edin: ")  formasında yazsaq userdən gələn datanı bir dəyərə bərabər edə bilirik. Bir nüansı qeyd etmək lazımdır ki, input() methodu string qaytarır, əgər int qaytarmasını istəyirsinizsə age = int(input("Yaşınızı qeyd edin: ")) kimi yaza bilərsiniz.
+
+
+## 9. Explain logical operators in Python.
+
+
+### Answer
+
+
+Bir çox programlaşdırma dilində olduğu kimi Pythonda da 3 dənə logical operator var. And , Or, Not.
+
+### 1. And operator 
+* Bu operatorla verilən bütün şərtlər ödənməlidir.
+  
+```py 
+
+a = 10
+b = 10
+c = -10
+  
+if a > 0 and b > 0:
+    print("The numbers are greater than 0")
+  
+if a > 0 and b > 0 and c > 0:
+    print("The numbers are greater than 0")
+else:
+    print("Atleast one number is not greater than 0")
+
+```
+
+### Nəticə 
+
+```
+The numbers are greater than 0
+
+Atleast one number is not greater than 0
+```
+### 2. Or operator 
+* Bu oparetorla verilən statementlar bir şərt ödəndikdə işləyir.
+
+```py 
+
+a = 10
+b = -10
+c = 0
+  
+if a > 0 or b > 0:
+    print("Either of the number is greater than 0")
+else:
+    print("No number is greater than 0")
+  
+if b > 0 or c > 0:
+    print("Either of the number is greater than 0")
+else:
+    print("No number is greater than 0")
+
+```
+
+### Nəticə 
+
+```
+
+Either of the number is greater than 0
+No number is greater than 0
+
+```
+
+### 3. Not operator 
+* Pythonda Not operatoru boolean valuelarla işlənir. Məsələn boolean value True-dursa, bu False qaytarır.
+
+```py 
+a = 10
+  
+if not a:
+    print("Boolean value of a is True")
+  
+if not (a%3 == 0 or a%5 == 0):
+    print("10 is not divisible by either 3 or 5")
+else:
+    print("10 is divisible by either 3 or 5")
+
+```
+
+### Nəticə
+
+``` 
+10 is divisible by either 3 or 5
+
+```
