@@ -845,3 +845,18 @@ Unlinkin istifadəsi isə aşağıdakı kimidir.
 import os 
 os.unlink("app.py")
 ```
+
+
+## 38.Illustrate the proper use of Python error handling.
+
+
+## Answer
+
+```py
+try:    
+    ….# Bura yoxlamaq istədiyiniz kodu yazırıq.
+except:
+    …# Yoxlamaq istədyiniz erroru və return'ü yazırıq.
+finally:
+    …# İstisnalara baxmayaraq, almaq istədiyiniz nəticəni bura yazırıq.
+```
