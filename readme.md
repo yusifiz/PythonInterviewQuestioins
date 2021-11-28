@@ -870,15 +870,13 @@ finally:
 * For loop öz işini yerinə yetirdikdə və loop ilə bir işimiz qalmadıqda 'break' komandası köməyimizə çatır. Break bildirir ki, "mənim bu dövr ilə işim bitdi, növbəti kod blokuna keçin.".
 
 
-## 40.Given the string "I Love Python" print out each character except for the spaces, using a for loop.
+## 40.Use a for loop and illustrate how you would define and print the characters in a string out, one per line.
 
 
 ## Answer
 
 ```py
-inyString = "I Love Python"
-for myCizar in myString:
-fmyChar == '' '':
-continue
-print myChar
+myString = "I Love Python"
+for myChar in myString:
+    print(myChar)
 ```
