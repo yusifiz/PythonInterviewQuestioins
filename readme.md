@@ -860,3 +860,11 @@ except:
 finally:
     …# İstisnalara baxmayaraq, almaq istədiyiniz nəticəni bura yazırıq.
 ```
+
+
+## 39.When would you use a break statement in a for loop?
+
+
+## Answer
+
+* For loop öz işini yerinə yetirdikdə və loop ilə bir işimiz qalmadıqda 'break' komandası köməyimizə çatır. Break bildirir ki, "mənim bu dövr ilə işim bitdi, növbəti kod blokuna keçin.".
