@@ -1119,4 +1119,24 @@ Output: 2
 Output: 25
 
 
+## 47.What are membership, operators?
+
+
+## Answer
+
+* Bu operatorlar 'in' və 'not in' operatorlarıdır. Məsələn bir textdə hər hansısa bir hərfin, bir listdə hər hansısa bir elementin olub olmamasını yoxlamaq üçün istifadə edilə bilər.
+
+```py
+if 'y' in 'yusif':
+    print(True)
+```
+
+Output: True
+
+```py
+if 'x' not in 'yusif':
+    print(False)
+```
+
+Output: False
 
