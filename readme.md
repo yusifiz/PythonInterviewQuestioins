@@ -1164,4 +1164,39 @@ Output: False
 (2, 3, 4)
 
 
+## 49.How to retrieve data from a table in MySQL database through Python code?
+
+
+## Answer
+
+```py
+#1. Mysql ilə əlaqə qurulur.
+
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  password="yourpassword",
+  database="mydatabase"
+)
+
+#2. Cursor obyekti yaranır
+
+mycursor = mydb.cursor()
+
+#3. Databazaya sorğu göndərilir
+
+mycursor.execute("SELECT * FROM customers")
+
+#4. Sorğuya uyğun seçdiyimiz datanı row şəklində bizə qaytarır.
+
+myresult = mycursor.fetchall()
+
+#5. Databaza əlaqəsi bağlanılır.
+
+db.close()
+
+```
+
 
