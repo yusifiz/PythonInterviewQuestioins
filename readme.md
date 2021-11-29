@@ -1054,3 +1054,69 @@ Output: 365
 2. sub() - bu methodda 2 parametr verilir, biri textdə dəyişmək istədiyiniz hissədir. Digəri isə dəyişmək istədiyiniz hissəyə nə qoymaq istəyirsiz.
 3. subn() - bu method da eyni sub methodu kimi işləyir, eyni zamanda nə qədər dəyişiklik edibsə onun sayın da göstərir.
 
+
+## 46.What are assignment operators in Python?
+
+
+## Answer
+
+Pythonda xüsusi simvollarla işlənən bəzi operatorlar vardır. Bunu nümunələrlə daha yaxşı anlamaq olar.
+
+1. '+' operatoru.
+```py
+ a = 7
+ a += 1
+ a
+```
+Output: 8
+
+2. '-' operatoru.
+```py
+ a = 7
+ a -= 1
+ a
+```
+Output: 6
+
+3. '*' operatoru.
+```py
+ a = 7
+ a*2
+ a
+```
+Output: 14
+
+4. '/' operatoru.
+```py
+ a = 14
+ a/2
+ a
+```
+Output: 7
+
+5. '%' operatoru. (Bölmə zamanı qalığı göstərir)
+```py
+ a = 5
+ a%2
+ a
+```
+Output: 1
+
+6. '//' operatoru. (Bölmə zamanı tam rəqəmi göstərir)
+```py
+ a = 5
+ a//2
+ a
+```
+Output: 2
+
+7. '**' operatoru. (verilən rəqəmi qüvvətə yüksəldir.)
+```py
+ a = 5
+ a**2
+ a
+```
+Output: 25
+
+
+
