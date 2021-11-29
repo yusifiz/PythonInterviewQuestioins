@@ -945,4 +945,41 @@ B class'ında m3 funksiyası
 ```
 
 
-## 43.
+## 43.What are negative indexes and why are they used?
+
+
+# Answer
+
+* Pythonda indekslər 0,müsbət və mənfi olur. 0 indeksi birinci elementi, 1 indeksi ikinci elementi və s. bildirir. Mənfi indekslərdə isə -1 indeksi sonuncu, -2 indeksi sonuncudan bir əvvəki və bu formada sondan başlayaraq davam edir.
+
+* Məsələn, print(a[:-1]) yazsaq, sonuncu element daxil olmamaqla, sonuncu elementə qədər çap edəcək. print(a[::-1]) yazanda isə, tərsinə sıralayaycaq.
+
+Bir list götürsək:
+
+```
+mylist=[0,1,2,3,4,5,6,7,8]
+```
+
+Mənfi indekslə bir elementi çap edəndə sonuncudan başlayaraq, sayacaq.
+
+```
+mylist[-3]
+```
+Output: 6 (sondan 3cü element)
+
+Mənfi indekslə element aralığı çap etmək istədikdə:
+
+```
+mylist[-6:-1]
+```
+Output: [3, 4, 5, 6, 7] (sondan başlayaraq 6cı element daxil olmaqla, 1ci elementə qədər (1ci element daxil deyil) çap edəcək.)
+
+Tərsinə sıralasaq:
+
+```
+mylist[::-1]
+```
+Output: [8,7,6,5,4,3,2,1,0]
+
+`mylist[:-1]` isə sonuncu element daxil olmadan ona qədərki elementləri gətirəcək.
+
