@@ -925,12 +925,12 @@ class B(Base):
 a1=A()
 a1.m1()
 a1.m2()
-a=a1.--hash--()
+a=a1
 print(a)
 b1=B()
 b1.m1()
 b1.m3()
-b=b1.hash--()
+b=b1
 print(b)
 ```
 Output:
@@ -944,3 +944,5 @@ B class'ında m3 funksiyası
 <__main__.B object at 0x0000015AFF0BECD0>
 ```
 
+
+## 43.
