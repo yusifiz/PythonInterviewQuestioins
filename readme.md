@@ -903,6 +903,44 @@ Python bir neçə fərqli tipdə inheritance'ı dəstəkləyir:
 * Hybrid Inheritance - iki və ya daha çox inheritance növünün birləşməsidir.
 
 
+## 42.What is Hierarchical Inheritance?
 
 
+## Answer
+
+* Bir base (əsas) class'dan bir neçə derived (törəmə) class'ın inherit almasıdır.
+
+```py
+class Base(object):    
+    def m1(self):       
+        print("Base class'ında m1 funksiyası")
+
+class A(Base):     
+    def m2(self):   
+        print("A class'ında m2 funksiyası")
+
+class B(Base): 
+    def m3(self):   
+        print("B class'ında m3 funksiyası")
+a1=A()
+a1.m1()
+a1.m2()
+a=a1.--hash--()
+print(a)
+b1=B()
+b1.m1()
+b1.m3()
+b=b1.hash--()
+print(b)
+```
+Output:
+
+```
+Base class'ında m1 funksiyası
+A class'ında m2 funksiyası
+<__main__.A object at 0x0000015AFF0BED00>
+Base class'ında m1 funksiyası
+B class'ında m3 funksiyası
+<__main__.B object at 0x0000015AFF0BECD0>
+```
 
