@@ -948,7 +948,7 @@ B class'ında m3 funksiyası
 ## 43.What are negative indexes and why are they used?
 
 
-# Answer
+## Answer
 
 * Pythonda indekslər 0,müsbət və mənfi olur. 0 indeksi birinci elementi, 1 indeksi ikinci elementi və s. bildirir. Mənfi indekslərdə isə -1 indeksi sonuncu, -2 indeksi sonuncudan bir əvvəki və bu formada sondan başlayaraq davam edir.
 
@@ -982,4 +982,64 @@ mylist[::-1]
 Output: [8,7,6,5,4,3,2,1,0]
 
 `mylist[:-1]` isə sonuncu element daxil olmadan ona qədərki elementləri gətirəcək.
+
+
+
+## 44.Explain a few methods to implement Functionally Oriented Programming in Python.
+
+
+## Answer
+
+Bir listdə fərqli məqsədlər üçün dövr etməyin bir neçə yolu var:
+
+* `filter()`: list üzərində istədiyimiz elementləri filter etməyə imkan yaradır.
+
+```py
+list(filter(lambda x:x>5,range(8)))
+```
+Output: [6,7]
+
+* `map()` : bu funksiya list'in hər bir elementinə funksiya tətbiq edir.
+
+```py
+list(map(lambda x:x**2,range(8)))
+```
+Output: [0, 1, 4, 9, 16, 25, 36, 49]
+
+
+* `reduce()` : bir nəticə alana qədər elementləri azaldır.
+
+```py
+from functools import reduce
+
+def sum(a, b):
+    print(f"a={a}, b={b}, {a} + {b} ={a+b}")
+    return a + b
+
+
+scores = [75, 65, 80, 95, 50]
+total = reduce(sum, scores)
+print(total)
+```
+Output:
+```
+a=75, b=65, 75 + 65 = 140
+a=140, b=80, 140 + 80 = 220
+a=220, b=95, 220 + 95 = 315
+a=315, b=50, 315 + 50 = 365
+365
+```
+Lamda'dan istifadə edərək daha sadə yazsaq:
+
+```py
+from functools import reduce
+
+scores = [75, 65, 80, 95, 50]
+
+total = reduce(lambda a, b: a + b, scores)
+
+print(total)
+```
+Output: 365
+
 
