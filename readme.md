@@ -1140,3 +1140,28 @@ if 'x' not in 'yusif':
 
 Output: False
 
+
+## 48.What is the concatenation?
+
+
+## Answer
+
+* Pythonda '+' operatoru ilə stringəri, listləri bir birinə birləşdirmək üçün istifadə olunur.
+
+` '32'+'32' `
+3232
+
+` [1,2,3]+[4,5,6] `
+[1, 2, 3, 4, 5, 6]
+
+* Burda diqqət etməli olduğumuz mövzu fərqli ata tipdə olan valueları bir birilə birləşdirə bilmərik.
+
+` (2,3)+(4)  # burda error verəcək çünki, 4 integer olduğu üçün list ilə birləşdirə bilmərik. `
+
+* Bunun üçün aşağıdakı kimi yazmaq olar.
+
+` (2,3)+(4,) `
+(2, 3, 4)
+
+
+
