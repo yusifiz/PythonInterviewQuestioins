@@ -201,7 +201,7 @@ Output - <class 'dict;>
 
 ```py
 mydict={'a':1,'b':2,'c':3,'e':5}
-mydict.keys()
+dict_keys = mydict.keys()
 print(dict_keys)
 ```
 
@@ -314,7 +314,7 @@ Burada isə tuple'a atdığımız integer dəyərləri x,y,z dəyişənlərinə 
 
 ## Answer
 
-Slice() metodu bizə stringi və ya list elementlərini hissələrə ayırmaq üçün istifadə olunur.
+Slicing bizə stringi və ya list elementlərini hissələrə ayırmaq üçün istifadə olunur.
 
 ```py
   (1,2,3,4,5)[2:4]
@@ -641,7 +641,7 @@ x outside: global
 
 ```
 
-* Bu misalda isə x global variable olduğu üçün həm funksiyanın içində həm də çölündə istifadəsi mümkündür.ad
+* Bu misalda isə x global variable olduğu üçün həm funksiyanın içində həm də çölündə istifadəsi mümkündür.
 
 
 ## 30. Suppose list1 is [2, 33, 222, 14, 25], What is list1[-1] ?
